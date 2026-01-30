@@ -1,2 +1,3 @@
 # glo2004-travail-session
 Travail de session du cours de génie logiciel orienté objet
+L'objectif ce travail était de créer une application qui permet de modéliser des objets en 2D dans le but de les exporter en fichier GCODE pour pouvoir découper la forme désirée à l'aide d'une machine CNC. L'application doit fournir un interface (créé à l'aide de la librairie Swing) ainsi que des fonctions de base (sélection, création et modification de coupes) à l'utilisateur, ainsi que la possibilité de sauvegarder et importer ses fichiers. L'architecture du code devait suivre des normes strictes :  utilisation de get/set, contrôleur de Larman, principes Grasp, séparation modèle-vue, objets DTO pour accès à l'interface, factory et abstract factory, singleton, composites, observers.
